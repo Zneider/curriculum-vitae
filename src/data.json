@@ -1,0 +1,221 @@
+{
+  "profile": {
+    "fields": [
+      {
+        "key": "Navn",
+        "value": "Jacob Zneider"
+      },
+      {
+        "key": "Adresse",
+        "value": "Rolf Krakes Allé 12, 2860 Søborg"
+      },
+      {
+        "key": "Mobil",
+        "value": "+45 2620 6005"
+      },
+      {
+        "key": "Email",
+        "value": "jacob@zneider.dk"
+      },
+      {
+        "key": "Nationalitet",
+        "value": "Dansk"
+      },
+      {
+        "key": "Køn",
+        "value": "Mand"
+      },
+      {
+        "key": "Civilstand",
+        "value": "Gift med Maria Ellegaard Zneider"
+      },
+      {
+        "key": "Børn",
+        "value": "Andrea"
+      }
+    ],
+    "languages": [
+      {
+        "language": "dansk",
+        "motherTongue": true
+      },
+      {
+        "language": "Engelsk",
+        "motherTongue": false,
+        "fields": [
+          {
+            "key": "Forståelse",
+            "value": [
+              {
+                "key": "Lytte",
+                "value": "Meget god"
+              },
+              {
+                "key": "Læse",
+                "value": "Meget god"
+              }
+            ]
+          }
+        ],
+        "understanding": {
+          "listening": "meget god",
+          "reading": "meget god"
+        },
+        "speak": {
+          "conversation": "God",
+          "presentation": "Over middel"
+        },
+        "writing": "Meget god"
+      },
+      {
+        "language": "Norsk/Svensk",
+        "motherTongue": false,
+        "understanding": {
+          "listening": "God",
+          "reading": "Let øvet"
+        },
+        "speak": {
+          "conversation": "Let øvet",
+          "presentation": "Begynder"
+        },
+        "writing": "Begynder"
+      }
+    ],
+    "Personality": {}
+  },
+  "education": [
+    {
+      "title": "Civilingeniør i informatik",
+      "startDate": "September 1999",
+      "endDate": "September 2006",
+      "institution": "DTU, 2800 Kgs. Lyngby"
+    },
+    {
+      "title": "Menig i flyvevåbnet",
+      "startDate": "Februar 1999",
+      "endDate": "Juni 1999",
+      "institution": "Skalstrup kaserne ved Roskilde",
+      "summary": "Militær grunduddannelse, nærforsvar og kørselstjeneste."
+    },
+    {
+      "title": "Matematisk student",
+      "startDate": "August 1995",
+      "endDate": "Juni 1998",
+      "institution": "Øregaard Gymnasium, Gersonsvej 32, 2900 Hellerup",
+      "summary": "Matematik og fysik på højt niveau"
+    }
+  ],
+  "workExperience": [
+    {
+      "company": {
+        "name": "Danske Bank - MobileLife",
+        "address": "Store Kongensgade 72, 1264 København K."
+      },
+      "position": {
+        "title": "Corporate Entrepreneur",
+        "startDate": "November 2015",
+        "primaryTasks": "Full-stack udvikler på Sunday.dk - Danske Banks boligportal",
+        "description":
+          "Udvikling af Sunday, mest med fokus på frontend, men også en del backend. Arktikturen er React SPA med NodeJS/Java microservices som backend",
+        "techStack": [
+          "React",
+          "Redux",
+          "NodeJS",
+          "Webpack",
+          "Postcss",
+          "JAVA",
+          "ElasticSearch",
+          "ES6",
+          "Typescript",
+          "Microservices",
+          "AWS",
+          "Docker",
+          "Webstorm",
+          "VS Code",
+          "Brackets"
+        ]
+      }
+    },
+    {
+      "company": {
+        "name": "SDC A/S",
+        "address": "Borupvang 1a, 2750 Ballerup"
+      },
+      "position": {
+        "title": "Software udvikler",
+        "startDate": "August 2013",
+        "endDate": "Oktober 2015",
+        "primaryTasks":
+          "Udvikling af portletter til SDC's netbank. Bland andet til indhentning af samtykker, automatisk kundeoprettelse og meget andet. Har desuden udvilket på en HTML5 løsning til Windows Phone",
+        "description":
+          "Udviklingen har været i JAVA EE både frontend og backend, Derudover har der været en del udvilking i Javascript, med jQuery som det primære library.",
+        "techStack": [
+          "JAVA EE",
+          "jQuery",
+          "Backbone",
+          "Backbone Marionette",
+          "SASS",
+          "Maven",
+          "Weblogic servere",
+          "Eclipse IDE",
+          "IntelliJ",
+          "SublimeText"
+        ]
+      }
+    },
+    {
+      "company": {
+        "name": "Theilgaard Mortensen A/S",
+        "address": "Niels Hemmingsens gade 9, 1153 København K."
+      },
+      "position": {
+        "title": "Software konsulent",
+        "startDate": "Marts 2011",
+        "endDate": "August 2013",
+        "primaryTasks":
+          "Udvikling af WebSphere Commerce webshops, både frontend og backend til bl.a. forhandler af sportsudstyr samt en af Danmarks største bogforhandlere.",
+        "description": "Udviklingen er foregået til IBM's WebSphere Commerce platform",
+        "techStack": [
+          "JAVA EE",
+          "struts",
+          "DB2",
+          "DOJO",
+          "JSP",
+          "JSTL",
+          "Apache solr",
+          "Rational Developer IDE"
+        ]
+      }
+    },
+    {
+      "company": {
+        "name": "Unwire ApS",
+        "address": "Vermundsgade 38A, 2100 København Ø"
+      },
+      "position": {
+        "title": "Software udvikler",
+        "startDate": "Januar 2007",
+        "endDate": "Februar 2011",
+        "primaryTasks":
+          "Udvikling af mobilløsninger - primært frontend, men også noget backend til mobilportaler og andre mobilbaserede løsninger.",
+        "description":
+          "Jeg har arbejdet på løsninger til nogle af Danmarks største transport-, tele-, bank- og medievirksomheder",
+        "techStack": [
+          "JAVA EE",
+          "JSP",
+          "servlets",
+          "Spring MVC",
+          "JSTL",
+          "Maven",
+          "Hibernate",
+          "XML",
+          "XSLT",
+          "XSD",
+          "Eclipse IDE",
+          "JBOSS servere",
+          "MySQL"
+        ]
+      }
+    }
+  ]
+}
