@@ -38,7 +38,7 @@
     "skills": {
       "social": "Har gennem mine tidligere jobs fået god erfaring med at omgås andre mennesker og hjælpe dem bedst muligt, hvis de har behov. Har desuden erfaring med at arbejde med personer af forskellig nationalitet, og har ingen problemer med at kommunikere på engelsk. Jeg sætter stor pris på gode kollegaer, og kan godt lide at small-talke over frokosten",
       "professional": {
-        "frontend": "Frontend-mæssigt har jeg godt indblik i følgende teknologier/frameworks/api'er: React, Redux, Webpack, HTML5, ES6, JSP, JSTL, HTML, XHTML, CSS2/CSS3, SASS, XML, XSLT, Javascript (jQuery, Dojo, YUI, jQuery Mobile, Backbone), AJAX og JSON.",
+        "frontend": "Frontend-mæssigt har jeg godt indblik i følgende teknologier/frameworks/api'er: React, Redux, Webpack, HTML5, ES6, JSP, JSTL, HTML, XHTML, CSS2/CSS3, SASS, XML, XSLT, Javascript (Ramda, Lodash, jQuery, Dojo, YUI, jQuery Mobile, Backbone), AJAX og JSON.",
         "backend": "Backend-mæssigt har de primære værktøjer været følgende: NodeJS, Java EE, EJB2.0, Spring MVC, CXF (til webservice klienter), DOM4J, Jackson, Maven og Hibernate.",
         "databases": "Har desuden god erfaring med SQL primært i MySql og DB2 databaser"
       }
@@ -108,9 +108,9 @@
         "startDate": "August 2013",
         "endDate": "Oktober 2015",
         "primaryTasks":
-          "Udvikling af portletter til SDC's netbank. Bland andet til indhentning af samtykker, automatisk kundeoprettelse og meget andet. Har desuden udvilket på en HTML5 løsning til Windows Phone",
+          "Udvikling af portletter til SDC's netbank. Bland andet til indhentning af samtykker, automatisk kundeoprettelse og meget andet. Har desuden udviklet på en HTML5-løsning til Windows Phone",
         "description":
-          "Udviklingen har været i JAVA EE både frontend og backend, Derudover har der været en del udvilking i Javascript, med jQuery som det primære library.",
+          "Udviklingen har været i JAVA EE både frontend og backend, Derudover har der været en del udvikling i Javascript, med jQuery som det primære library.",
         "techStack": [
           "JAVA EE",
           "jQuery",
