@@ -34,53 +34,15 @@
         "value": "Andrea"
       }
     ],
-    "languages": [
-      {
-        "language": "dansk",
-        "motherTongue": true
-      },
-      {
-        "language": "Engelsk",
-        "motherTongue": false,
-        "fields": [
-          {
-            "key": "Forståelse",
-            "value": [
-              {
-                "key": "Lytte",
-                "value": "Meget god"
-              },
-              {
-                "key": "Læse",
-                "value": "Meget god"
-              }
-            ]
-          }
-        ],
-        "understanding": {
-          "listening": "meget god",
-          "reading": "meget god"
-        },
-        "speak": {
-          "conversation": "God",
-          "presentation": "Over middel"
-        },
-        "writing": "Meget god"
-      },
-      {
-        "language": "Norsk/Svensk",
-        "motherTongue": false,
-        "understanding": {
-          "listening": "God",
-          "reading": "Let øvet"
-        },
-        "speak": {
-          "conversation": "Let øvet",
-          "presentation": "Begynder"
-        },
-        "writing": "Begynder"
+    "interests": "Sport generelt, især fodbold og badminton. Natur og videnskab, gerne gode dokumentarer. Teknik generelt, især hardware og software. Film, madlavning og rejser.",
+    "skills": {
+      "social": "Har gennem mine tidligere jobs fået god erfaring med at omgås andre mennesker og hjælpe dem bedst muligt, hvis de har behov. Har desuden erfaring med at arbejde med personer af forskellig nationalitet, og har ingen problemer med at kommunikere på engelsk. Jeg sætter stor pris på gode kollegaer, og kan godt lide at small-talke over frokosten",
+      "professional": {
+        "frontend": "Frontend-mæssigt har jeg godt indblik i følgende teknologier/frameworks/api'er: React, Redux, Webpack, HTML5, ES6, JSP, JSTL, HTML, XHTML, CSS2/CSS3, SASS, XML, XSLT, Javascript (jQuery, Dojo, YUI, jQuery Mobile, Backbone), AJAX og JSON.",
+        "backend": "Backend-mæssigt har de primære værktøjer været følgende: NodeJS, Java EE, EJB2.0, Spring MVC, CXF (til webservice klienter), DOM4J, Jackson, Maven og Hibernate.",
+        "databases": "Har desuden god erfaring med SQL primært i MySql og DB2 databaser"
       }
-    ],
+    },
     "Personality": {}
   },
   "education": [

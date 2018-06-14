@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
-const Label = styled.div`
-font-size: 14px;
+export const Label = styled.div`
+  font-size: 14px;
 `;
 
-export default Label;
+export const LabelBold = styled.div`
+  font-size: 14px;
+  font-weight: bold;
+`;
