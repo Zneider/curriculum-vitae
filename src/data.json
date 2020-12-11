@@ -38,7 +38,7 @@
     "skills": {
       "social": "Har gennem mine tidligere jobs fået god erfaring med at omgås andre mennesker og hjælpe dem bedst muligt, hvis de har behov. Har desuden erfaring med at arbejde med personer af forskellig nationalitet, og har ingen problemer med at kommunikere på engelsk. Jeg sætter stor pris på gode kollegaer, og kan godt lide at small-talke over frokosten",
       "professional": {
-        "frontend": "Frontend-mæssigt har jeg godt indblik i følgende teknologier/frameworks/api'er: React, Redux, Webpack, HTML5, ES6, JSP, JSTL, HTML, XHTML, CSS2/CSS3, SASS, XML, XSLT, Javascript (Ramda, Lodash, jQuery, Dojo, YUI, jQuery Mobile, Backbone), AJAX og JSON.",
+        "frontend": "Frontend-mæssigt har jeg godt indblik i følgende teknologier/frameworks/api'er: React, React Hooks, Redux, GraphQL, WCAG/A11Y, Webpack, HTML5, ES6, JSP, JSTL, HTML, XHTML, CSS2/CSS3, SASS, XML, XSLT, Javascript (Ramda, Lodash, jQuery, Dojo, YUI, jQuery Mobile, Backbone), AJAX og JSON.",
         "backend": "Backend-mæssigt har de primære værktøjer været følgende: NodeJS, Java EE, EJB2.0, Spring MVC, CXF (til webservice klienter), DOM4J, Jackson, Maven og Hibernate.",
         "databases": "Har desuden god erfaring med SQL primært i MySql og DB2 databaser"
       }
@@ -70,12 +70,41 @@
   "workExperience": [
     {
       "company": {
+        "name": "Charlie Tango A/S",
+        "address": "Rosenvængets Allé 11, 2100 København Ø"
+      },
+      "position": {
+        "title": "Senior frontend developer",
+        "startDate": "September 2018",
+        "primaryTasks": "Frontend developer på flere kundeprojekter - primært vizrt.com og vurderingsportalen.dk",
+        "description":
+          "Udvikling af nyt website til VizRT i tæt samarbejde med kunde, backend og UX/design. Komplet site udført på 3 måneder. I perioden januar 2019 - oktober 2020, har jeg sidder som frontend udvikler på Vurderingsportalen.dk",
+        "techStack": [
+          "React",
+          "React Hooks",
+          "GraphQL",
+          "A11Y/WCAG",
+          "Webpack",
+          "Styled-Components",
+          "SiteCore",
+          "Umbraco",
+          "ES6",
+          "Typescript",
+          "Flow",
+          "VS Code",
+          "Brackets"
+        ]
+      }
+    },
+    {
+      "company": {
         "name": "Danske Bank - MobileLife",
         "address": "Store Kongensgade 72, 1264 København K."
       },
       "position": {
         "title": "Corporate Entrepreneur",
         "startDate": "November 2015",
+        "endDate": "August 2018",
         "primaryTasks": "Full-stack udvikler på Sunday.dk - Danske Banks boligportal",
         "description":
           "Udvikling af Sunday, mest med fokus på frontend, men også en del backend. Arktikturen er React SPA med NodeJS/Java microservices som backend",

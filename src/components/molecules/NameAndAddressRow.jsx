@@ -13,7 +13,9 @@ const NameAndAddressRow = ({ name, address }) => (
       <Text>
         {name}
         <br />
+        <address>
         {address}
+        </address>
       </Text>
     </RightColumn>
   </Row>

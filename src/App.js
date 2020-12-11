@@ -10,7 +10,7 @@ import Education from './components/Education/Education';
 import SpaceRow from './components/molecules/SpaceRow';
 import data from './data.json';
 
-const Container = styled.div`
+const Container = styled.article`
   width: 210mm;
   display: flex;
   flex-direction: column;
@@ -27,14 +27,15 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <Row>
+        <Row as="header">
           <LeftColumnFirst>
             <Header>Curriculum Vitae</Header>
           </LeftColumnFirst>
         </Row>
+        <section>
         <Row>
           <LeftColumn>
-            <SubHeader>Personlig information</SubHeader>
+            <SubHeader as="h2">Personlig information</SubHeader>
           </LeftColumn>
         </Row>
         {data.profile.fields.map(field => (
@@ -47,22 +48,28 @@ class App extends Component {
             </RightColumn>
           </Row>
         ))}
+        </section>
+        <section>
         <SpaceRow />
         <Row>
           <LeftColumn>
-            <SubHeader>Erhvervserfaring</SubHeader>
+            <SubHeader as="h2">Erhvervserfaring</SubHeader>
           </LeftColumn>
         </Row>
         {data.workExperience.map((work, idx) => <Work key={`work_${idx}`} work={work} />)}
+        </section>
+        <section>
         <Row>
           <LeftColumn>
-            <SubHeader>Uddannelse</SubHeader>
+            <SubHeader as="h2">Uddannelse</SubHeader>
           </LeftColumn>
         </Row>
         {data.education.map((education, idx) => <Education key={`work_${idx}`} education={education} />)}
+        </section>
+        <section>
         <Row>
           <LeftColumn>
-            <SubHeader>Personlige færdigheder og kompetencer</SubHeader>
+            <SubHeader as="h2">Personlige færdigheder og kompetencer</SubHeader>
           </LeftColumn>
         </Row>
         <Row>
@@ -122,7 +129,9 @@ class App extends Component {
             </Text>
           </RightColumn>
         </Row>
+        </section>
         <SpaceRow />
+        <section>
         <Row>
           <LeftColumn>
             <Label>Faglige kompetencer</Label>
@@ -141,7 +150,9 @@ class App extends Component {
             </Text>
           </RightColumn>
         </Row>
+        </section>
         <SpaceRow />
+        <section>
         <Row>
           <LeftColumn>
             <LabelBold>Yderligere info</LabelBold>
@@ -157,6 +168,7 @@ class App extends Component {
             <Text>{data.profile.interests}</Text>
           </RightColumn>
         </Row>
+        </section>
       </Container>
     );
   }

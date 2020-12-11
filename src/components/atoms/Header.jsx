@@ -5,7 +5,8 @@ margin: 0;
 padding: 0 0 32px 0;
 `;
 
-export const SubHeader = styled.h3`
+export const SubHeader = styled.h2`
 margin: 0;
 padding: 0 0 16px 0;
+font-size: smaller;
 `;
