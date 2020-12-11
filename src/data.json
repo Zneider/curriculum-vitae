@@ -77,8 +77,7 @@
         "title": "Senior frontend developer",
         "startDate": "September 2018",
         "primaryTasks": "Frontend developer på flere kundeprojekter - primært vizrt.com og vurderingsportalen.dk",
-        "description":
-          "Udvikling af nyt website til VizRT i tæt samarbejde med kunde, backend og UX/design. Komplet site udført på 3 måneder. I perioden januar 2019 - oktober 2020, har jeg sidder som frontend udvikler på Vurderingsportalen.dk",
+        "description": "Udvikling af nyt website til VizRT i tæt samarbejde med kunde, backend og UX/design. Komplet site udført på 3 måneder. I perioden januar 2019 - oktober 2020, har jeg sidder som frontend udvikler på Vurderingsportalen.dk",
         "techStack": [
           "React",
           "React Hooks",
@@ -106,8 +105,7 @@
         "startDate": "November 2015",
         "endDate": "August 2018",
         "primaryTasks": "Full-stack udvikler på Sunday.dk - Danske Banks boligportal",
-        "description":
-          "Udvikling af Sunday, mest med fokus på frontend, men også en del backend. Arktikturen er React SPA med NodeJS/Java microservices som backend",
+        "description": "Udvikling af Sunday, mest med fokus på frontend, men også en del backend. Arktikturen er React SPA med NodeJS/Java microservices som backend",
         "techStack": [
           "React",
           "Redux",
@@ -136,10 +134,8 @@
         "title": "Software udvikler",
         "startDate": "August 2013",
         "endDate": "Oktober 2015",
-        "primaryTasks":
-          "Udvikling af portletter til SDC's netbank. Bland andet til indhentning af samtykker, automatisk kundeoprettelse og meget andet. Har desuden udviklet på en HTML5-løsning til Windows Phone",
-        "description":
-          "Udviklingen har været i JAVA EE både frontend og backend, Derudover har der været en del udvikling i Javascript, med jQuery som det primære library.",
+        "primaryTasks": "Udvikling af portletter til SDC's netbank. Bland andet til indhentning af samtykker, automatisk kundeoprettelse og meget andet. Har desuden udviklet på en HTML5-løsning til Windows Phone",
+        "description": "Udviklingen har været i JAVA EE både frontend og backend, Derudover har der været en del udvikling i Javascript, med jQuery som det primære library.",
         "techStack": [
           "JAVA EE",
           "jQuery",
@@ -163,8 +159,7 @@
         "title": "Software konsulent",
         "startDate": "Marts 2011",
         "endDate": "August 2013",
-        "primaryTasks":
-          "Udvikling af WebSphere Commerce webshops, både frontend og backend til bl.a. forhandler af sportsudstyr samt en af Danmarks største bogforhandlere.",
+        "primaryTasks": "Udvikling af WebSphere Commerce webshops, både frontend og backend til bl.a. forhandler af sportsudstyr samt en af Danmarks største bogforhandlere.",
         "description": "Udviklingen er foregået til IBM's WebSphere Commerce platform",
         "techStack": [
           "JAVA EE",
@@ -187,10 +182,8 @@
         "title": "Software udvikler",
         "startDate": "Januar 2007",
         "endDate": "Februar 2011",
-        "primaryTasks":
-          "Udvikling af mobilløsninger - primært frontend, men også noget backend til mobilportaler og andre mobilbaserede løsninger.",
-        "description":
-          "Jeg har arbejdet på løsninger til nogle af Danmarks største transport-, tele-, bank- og medievirksomheder",
+        "primaryTasks": "Udvikling af mobilløsninger - primært frontend, men også noget backend til mobilportaler og andre mobilbaserede løsninger.",
+        "description": "Jeg har arbejdet på løsninger til nogle af Danmarks største transport-, tele-, bank- og medievirksomheder",
         "techStack": [
           "JAVA EE",
           "JSP",

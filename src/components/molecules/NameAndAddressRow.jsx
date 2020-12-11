@@ -1,8 +1,8 @@
-import React from 'react';
-import Row from '../atoms/Row';
-import { LeftColumn, RightColumn } from '../atoms/Column';
-import { Label } from '../atoms/Label';
-import Text from '../atoms/Text';
+import React from 'react'
+import Row from '../atoms/Row'
+import { LeftColumn, RightColumn } from '../atoms/Column'
+import { Label } from '../atoms/Label'
+import Text from '../atoms/Text'
 
 const NameAndAddressRow = ({ name, address }) => (
   <Row>
@@ -13,12 +13,10 @@ const NameAndAddressRow = ({ name, address }) => (
       <Text>
         {name}
         <br />
-        <address>
-        {address}
-        </address>
+        <address>{address}</address>
       </Text>
     </RightColumn>
   </Row>
-);
+)
 
-export default NameAndAddressRow;
+export default NameAndAddressRow

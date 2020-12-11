@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const Row = styled.div`
   display: flex;
@@ -6,6 +6,6 @@ const Row = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   box-sizing: border-box;
-`;
+`
 
-export default Row;
+export default Row
