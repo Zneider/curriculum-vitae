@@ -4,13 +4,13 @@ import NameAndAddressRow from '../molecules/NameAndAddressRow'
 import SpaceRow from '../molecules/SpaceRow'
 
 const DateRow = ({ startDate, endDate }) => (
-  <ContentRow label="Dato" text={`${startDate} - ${endDate || 'nu'}`} />
+  <ContentRow label="Date" text={`${startDate} - ${endDate || 'now'}`} />
 )
 
-const Position = ({ title }) => <ContentRow label="Stilling" text={title} />
+const Position = ({ title }) => <ContentRow label="Position" text={title} />
 
 const PrimaryTasks = ({ primaryTasks }) => (
-  <ContentRow label="Primære opgaver" text={primaryTasks} />
+  <ContentRow label="Primary tasks" text={primaryTasks} />
 )
 
 const Description = ({ description }) => (
@@ -18,7 +18,7 @@ const Description = ({ description }) => (
 )
 
 const Tools = ({ techStack }) => (
-  <ContentRow label="Sprog, tools og libraries" text={techStack} />
+  <ContentRow label="Language, tools and libraries" text={techStack} />
 )
 
 const Work = ({ work }) => {

@@ -2,15 +2,15 @@
   "profile": {
     "fields": [
       {
-        "key": "Navn",
+        "key": "Name",
         "value": "Jacob Zneider"
       },
       {
-        "key": "Adresse",
+        "key": "Address",
         "value": "Rolf Krakes Allé 12, 2860 Søborg"
       },
       {
-        "key": "Mobil",
+        "key": "Mobile number",
         "value": "+45 2620 6005"
       },
       {
@@ -18,56 +18,81 @@
         "value": "jacob@zneider.dk"
       },
       {
-        "key": "Nationalitet",
-        "value": "Dansk"
+        "key": "Nationality",
+        "value": "Danish"
       },
       {
-        "key": "Køn",
-        "value": "Mand"
+        "key": "Sex",
+        "value": "Male"
       },
       {
-        "key": "Civilstand",
-        "value": "Gift med Maria Ellegaard Zneider"
+        "key": "Civil status",
+        "value": "Married to Maria Ellegaard Zneider"
       },
       {
-        "key": "Børn",
+        "key": "Children",
         "value": "Andrea"
       }
     ],
-    "interests": "Sport generelt, især fodbold og badminton. Natur og videnskab, gerne gode dokumentarer. Teknik generelt, især hardware og software. Film, madlavning og rejser.",
+    "interests": "Sports in general, mainly soccer and badminton. Nature and science, love to watch a good documentary. Tech in general, but mainly hardware and software. Movies, cooking and traveling.",
     "skills": {
-      "social": "Har gennem mine tidligere jobs fået god erfaring med at omgås andre mennesker og hjælpe dem bedst muligt, hvis de har behov. Har desuden erfaring med at arbejde med personer af forskellig nationalitet, og har ingen problemer med at kommunikere på engelsk. Jeg sætter stor pris på gode kollegaer, og kan godt lide at small-talke over frokosten",
+      "social": "Through previous occupations I have gained a lot of experice working with different colleagues. I love to help others when I can, and if they have a need. Futhermore I am used to work with colleagues of a variaty of nationalities, so my usual work language is english. I value good colleagues, that likes to small talk over a cup of coffee.",
       "professional": {
-        "frontend": "Frontend-mæssigt har jeg godt indblik i følgende teknologier/frameworks/api'er: React, React Hooks, Redux, GraphQL, WCAG/A11Y, Webpack, HTML5, ES6, JSP, JSTL, HTML, XHTML, CSS2/CSS3, SASS, XML, XSLT, Javascript (Ramda, Lodash, jQuery, Dojo, YUI, jQuery Mobile, Backbone), AJAX og JSON.",
-        "backend": "Backend-mæssigt har de primære værktøjer været følgende: NodeJS, Java EE, EJB2.0, Spring MVC, CXF (til webservice klienter), DOM4J, Jackson, Maven og Hibernate.",
-        "databases": "Har desuden god erfaring med SQL primært i MySql og DB2 databaser"
+        "frontend": "I have experience with the following frontend technologies: React, React Hooks, Redux, NextJS, Storybook, GraphQL, WCAG/A11Y, Webpack, Vite, HTML5, ES6, CSS3, Postcss, tailwindcss, XML, XSLT, AJAX og JSON.",
+        "backend": "I have experience with the following backend technologies: NodeJS, GOlang (Quite new to this)",
+        "databases": "I have some experience with SQL, but don't use it much lately"
       }
     },
     "Personality": {}
   },
   "education": [
     {
-      "title": "Civilingeniør i informatik",
+      "title": "Civil Engineer in informatics",
       "startDate": "September 1999",
       "endDate": "September 2006",
       "institution": "DTU, 2800 Kgs. Lyngby"
     },
     {
-      "title": "Menig i flyvevåbnet",
-      "startDate": "Februar 1999",
-      "endDate": "Juni 1999",
-      "institution": "Skalstrup kaserne ved Roskilde",
-      "summary": "Militær grunduddannelse, nærforsvar og kørselstjeneste."
+      "title": "Private in the air force",
+      "startDate": "February 1999",
+      "endDate": "June 1999",
+      "institution": "Skalstrup kaserne at Roskilde",
+      "summary": "Military basic education"
     },
     {
-      "title": "Matematisk student",
+      "title": "Matematical student",
       "startDate": "August 1995",
-      "endDate": "Juni 1998",
+      "endDate": "June 1998",
       "institution": "Øregaard Gymnasium, Gersonsvej 32, 2900 Hellerup",
-      "summary": "Matematik og fysik på højt niveau"
+      "summary": "Matematics og physics at A level"
     }
   ],
   "workExperience": [
+    {
+      "company": {
+        "name": "Zeronorth A/S",
+        "address": "Amagerfælledvej 106, 2300 Copenhagen S"
+      },
+      "position": {
+        "title": "Senior frontend developer",
+        "startDate": "April 2021",
+        "primaryTasks": "Frontend developer on Zeronorth's voyage optimisation tools",
+        "description": "Development of new features for the ZN voyage optimisation tool, helping shipping traffic to become more green",
+        "techStack": [
+          "React",
+          "React Redux",
+          "NextJS",
+          "GOlang",
+          "Vite",
+          "TailwindCSS",
+          "CSS3",
+          "Typescript",
+          "ES6",
+          "VS Code",
+          "AWS Lambdas"
+        ]
+      }
+    },
     {
       "company": {
         "name": "Charlie Tango A/S",
@@ -76,8 +101,9 @@
       "position": {
         "title": "Senior frontend developer",
         "startDate": "September 2018",
-        "primaryTasks": "Frontend developer på flere kundeprojekter - primært vizrt.com og vurderingsportalen.dk",
-        "description": "Udvikling af nyt website til VizRT i tæt samarbejde med kunde, backend og UX/design. Komplet site udført på 3 måneder. I perioden januar 2019 - oktober 2020, har jeg sidder som frontend udvikler på Vurderingsportalen.dk",
+        "endDate": "March 2021",
+        "primaryTasks": "Frontend developer on several customer projects - primarily vizrt.com and vurderingsportalen.dk",
+        "description": "Development of a new website for VizRT in close collaboration with the customer, backend and UX/design. Complete site done in 3 months. From january 2019 - october 2020, I have been allocated as frontend developer at Vurderingsportalen.dk",
         "techStack": [
           "React",
           "React Hooks",
@@ -104,8 +130,8 @@
         "title": "Corporate Entrepreneur",
         "startDate": "November 2015",
         "endDate": "August 2018",
-        "primaryTasks": "Full-stack udvikler på Sunday.dk - Danske Banks boligportal",
-        "description": "Udvikling af Sunday, mest med fokus på frontend, men også en del backend. Arktikturen er React SPA med NodeJS/Java microservices som backend",
+        "primaryTasks": "Full-stack developer at Sunday.dk (Now danskebank.dk/bolig) - Danske Banks housing portal",
+        "description": "Development of Sunday.dk, mainly focussing on the frontend, but also some backend. The architechture is React SPA with NodeJS/Java microservices as backend",
         "techStack": [
           "React",
           "Redux",
@@ -131,11 +157,11 @@
         "address": "Borupvang 1a, 2750 Ballerup"
       },
       "position": {
-        "title": "Software udvikler",
+        "title": "Software developer",
         "startDate": "August 2013",
-        "endDate": "Oktober 2015",
-        "primaryTasks": "Udvikling af portletter til SDC's netbank. Bland andet til indhentning af samtykker, automatisk kundeoprettelse og meget andet. Har desuden udviklet på en HTML5-løsning til Windows Phone",
-        "description": "Udviklingen har været i JAVA EE både frontend og backend, Derudover har der været en del udvikling i Javascript, med jQuery som det primære library.",
+        "endDate": "October 2015",
+        "primaryTasks": "Development of 'portlets' for the SDC netbank.",
+        "description": "Development was done in JAVA EE both frontend and backend.",
         "techStack": [
           "JAVA EE",
           "jQuery",
@@ -156,11 +182,11 @@
         "address": "Niels Hemmingsens gade 9, 1153 København K."
       },
       "position": {
-        "title": "Software konsulent",
-        "startDate": "Marts 2011",
+        "title": "Software consultant",
+        "startDate": "March 2011",
         "endDate": "August 2013",
-        "primaryTasks": "Udvikling af WebSphere Commerce webshops, både frontend og backend til bl.a. forhandler af sportsudstyr samt en af Danmarks største bogforhandlere.",
-        "description": "Udviklingen er foregået til IBM's WebSphere Commerce platform",
+        "primaryTasks": "Development of WebSphere Commerce webshops, both frontend and backend.",
+        "description": "Development was made in IBM's WebSphere Commerce platform",
         "techStack": [
           "JAVA EE",
           "struts",
@@ -179,11 +205,11 @@
         "address": "Vermundsgade 38A, 2100 København Ø"
       },
       "position": {
-        "title": "Software udvikler",
-        "startDate": "Januar 2007",
-        "endDate": "Februar 2011",
-        "primaryTasks": "Udvikling af mobilløsninger - primært frontend, men også noget backend til mobilportaler og andre mobilbaserede løsninger.",
-        "description": "Jeg har arbejdet på løsninger til nogle af Danmarks største transport-, tele-, bank- og medievirksomheder",
+        "title": "Software developer",
+        "startDate": "January 2007",
+        "endDate": "February 2011",
+        "primaryTasks": "Development of mobil solutions - primarily frontend.",
+        "description": "Worked on solutions for some of the larger companies within transportation, telecommunication, banking and media",
         "techStack": [
           "JAVA EE",
           "JSP",

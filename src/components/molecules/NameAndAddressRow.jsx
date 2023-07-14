@@ -7,7 +7,7 @@ import Text from '../atoms/Text'
 const NameAndAddressRow = ({ name, address }) => (
   <Row>
     <LeftColumn>
-      <Label>Navn og adresse på arbejdsgiver</Label>
+      <Label>Name and address of employer</Label>
     </LeftColumn>
     <RightColumn>
       <Text>

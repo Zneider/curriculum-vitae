@@ -39,7 +39,7 @@ class App extends Component {
         <section>
           <Row>
             <LeftColumn>
-              <SubHeader as="h2">Personlig information</SubHeader>
+              <SubHeader as="h2">Personal information</SubHeader>
             </LeftColumn>
           </Row>
           {data.profile.fields.map((field) => (
@@ -57,7 +57,7 @@ class App extends Component {
           <SpaceRow />
           <Row>
             <LeftColumn>
-              <SubHeader as="h2">Erhvervserfaring</SubHeader>
+              <SubHeader as="h2">Work experience</SubHeader>
             </LeftColumn>
           </Row>
           {data.workExperience.map((work, idx) => (
@@ -67,7 +67,7 @@ class App extends Component {
         <section>
           <Row>
             <LeftColumn>
-              <SubHeader as="h2">Uddannelse</SubHeader>
+              <SubHeader as="h2">Education</SubHeader>
             </LeftColumn>
           </Row>
           {data.education.map((education, idx) => (
@@ -77,61 +77,59 @@ class App extends Component {
         <section>
           <Row>
             <LeftColumn>
-              <SubHeader as="h2">
-                Personlige færdigheder og kompetencer
-              </SubHeader>
+              <SubHeader as="h2">Personal skills and competencies</SubHeader>
             </LeftColumn>
           </Row>
           <Row>
             <LeftColumn>
-              <LabelBold>Sprog</LabelBold>
+              <LabelBold>Language</LabelBold>
             </LeftColumn>
           </Row>
           <Row>
             <LeftColumn>
-              <Label>Engelsk tale</Label>
+              <Label>English spoken</Label>
             </LeftColumn>
             <RightColumn>
-              <Text>Samtale: God</Text>
-              <Text>Præsentation: Over middel</Text>
+              <Text>Conversation: Proficient</Text>
+              <Text>Presentation: Above average</Text>
             </RightColumn>
           </Row>
           <Row>
             <LeftColumn>
-              <Label>Engelsk skrift</Label>
+              <Label>English written</Label>
             </LeftColumn>
             <RightColumn>
-              <Text>Læse: Meget god</Text>
-              <Text>Skrive: Meget god</Text>
+              <Text>Reading: Proficient</Text>
+              <Text>Writing: Proficient</Text>
             </RightColumn>
           </Row>
           <Row>
             <LeftColumn>
-              <Label>Svensk/Norsk tale</Label>
+              <Label>Swedish/Nowegian spoken</Label>
             </LeftColumn>
             <RightColumn>
-              <Text>Samtale: Øvet</Text>
-              <Text>Præsentation: Begynder</Text>
+              <Text>Conversation: Some experience</Text>
+              <Text>Presentation: Beginner</Text>
             </RightColumn>
           </Row>
           <Row>
             <LeftColumn>
-              <Label>Svensk/Norsk skrift</Label>
+              <Label>Swedish/Nowegian written</Label>
             </LeftColumn>
             <RightColumn>
-              <Text>Læse: Øvet</Text>
-              <Text>Skrive: Begynder</Text>
+              <Text>Reading: Some experience</Text>
+              <Text>Writing: Beginner</Text>
             </RightColumn>
           </Row>
           <SpaceRow />
           <Row>
             <LeftColumn>
-              <LabelBold>Sociale færdigheder og kompetencer</LabelBold>
+              <LabelBold>Social skills and competencies</LabelBold>
             </LeftColumn>
           </Row>
           <Row>
             <LeftColumn>
-              <Label>Socialt</Label>
+              <Label>Socially</Label>
             </LeftColumn>
             <RightColumn>
               <Text>{data.profile.skills.social}</Text>
@@ -142,7 +140,7 @@ class App extends Component {
         <section>
           <Row>
             <LeftColumn>
-              <Label>Faglige kompetencer</Label>
+              <Label>Professional skills</Label>
             </LeftColumn>
             <RightColumn>
               <Text>{data.profile.skills.professional.frontend}</Text>
@@ -157,12 +155,12 @@ class App extends Component {
         <section>
           <Row>
             <LeftColumn>
-              <LabelBold>Yderligere info</LabelBold>
+              <LabelBold>Additional info</LabelBold>
             </LeftColumn>
           </Row>
           <Row>
             <LeftColumn>
-              <Label>Fritidsinteresser</Label>
+              <Label>Spare time interests</Label>
             </LeftColumn>
             <RightColumn>
               <Text>{data.profile.interests}</Text>

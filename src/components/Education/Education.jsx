@@ -3,17 +3,17 @@ import ContentRow from '../molecules/ContentRow'
 import SpaceRow from '../molecules/SpaceRow'
 
 const DateRow = ({ startDate, endDate }) => (
-  <ContentRow label="Dato" text={`${startDate} - ${endDate}`} />
+  <ContentRow label="Date" text={`${startDate} - ${endDate}`} />
 )
 
-const TitleRow = ({ title }) => <ContentRow label="Titel" text={title} />
+const TitleRow = ({ title }) => <ContentRow label="Title" text={title} />
 
 const SummaryRow = ({ summary }) => (
-  <ContentRow label="Primære fag" text={summary} />
+  <ContentRow label="Primary subjects" text={summary} />
 )
 
 const InstitutionRow = ({ institution }) => (
-  <ContentRow label="Uddannelsesinstitution" text={institution} />
+  <ContentRow label="Educational institution" text={institution} />
 )
 
 const Education = ({ education }) => {
